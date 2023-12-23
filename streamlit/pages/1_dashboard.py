@@ -28,8 +28,6 @@ def load_data(url: str):
 
     return df
 
-
-
 def info_box (texto, color=None):
     st.markdown(f'<div style = "background-color:#4EBAE1;opacity:70%"><p style="text-align:center;color:white;font-size:30px;">{texto}</p></div>', unsafe_allow_html=True)
 
@@ -93,3 +91,4 @@ with tab1:
 with tab2:
     # Use the native Plotly theme.
     st.plotly_chart(fig2, theme=None, use_container_width=True)
+
